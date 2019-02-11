@@ -1,2 +1,26 @@
 # Q-Applet: CircleCI
-A CircleCI integration applet for Daskeyboard.
+
+Get CircleCI build status alerts directly on a Das Keyboard Q keyboard. Requires a CircleCI account
+and a personal API token: [https://circleci.com/](https://circleci.com/).
+
+[GitHub repository](https://github.com/brandonschabell/daskeyboard-applet-circleci)
+
+## Example
+
+The F3 key in the image below is red because the build of the repo `q-desktop` is failing.
+![CircleCI on a Das Keybaord Q](assets/image.png "Das Keyboard CircleCI applet")
+
+## Installation
+
+Requires a Das Keyboard Q Series: www.daskeyboard.com
+
+Installation, configuration and uninstallation of applets is done within
+the Q Desktop application [https://www.daskeyboard.com](https://www.daskeyboard.com/q).
+
+## Running tests
+
+- `yarn test`
+
+## Contributions
+
+Pull requests welcome.

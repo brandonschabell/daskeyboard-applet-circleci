@@ -5,5 +5,5 @@ and a personal API token: [https://circleci.com/](https://circleci.com/).
 
 ## Example
 
-The F3 key in the image below is green because the build of the repo `event-recommendation` has passed.
+The "C" key in the image below is green because the build of the repo `event-recommendation` has passed.
 ![CircleCI on a Das Keybaord Q](assets/image.png "Das Keyboard CircleCI applet")

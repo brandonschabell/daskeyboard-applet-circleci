@@ -1,0 +1,338 @@
+[ {
+  "irc_server" : null,
+  "ssh_keys" : [ ],
+  "branches" : {
+    "dev" : {
+      "latest_workflows" : {
+        "Build%20Error" : {
+          "status" : "failed",
+          "created_at" : "2019-02-09T16:16:44.736Z",
+          "id" : "f01e9260-d954-4749-8309-94848d4776a5"
+        },
+        "workflow" : {
+          "status" : "success",
+          "created_at" : "2019-02-09T22:47:35.457Z",
+          "id" : "f69ae070-018b-426d-a81c-1e5ec8d88979"
+        }
+      },
+      "pusher_logins" : [ "brandonschabell" ],
+      "running_builds" : [ ],
+      "recent_builds" : [ {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 28,
+        "vcs_revision" : "95f896a725301655bf0d2e1c349d6d9bcd45bbde",
+        "pushed_at" : "2019-02-09T22:47:35.313Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T22:47:49.671Z"
+      }, {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 25,
+        "vcs_revision" : "e7d96db2ae2d645e19d89c1de747fb9db161c1aa",
+        "pushed_at" : "2019-02-09T22:11:36.940Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T22:11:55.994Z"
+      }, {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 22,
+        "vcs_revision" : "a3ec4de264911b018f1c0c10fff12a6b3b2ec5d9",
+        "pushed_at" : "2019-02-09T20:01:57.312Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T20:02:16.789Z"
+      }, {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 16,
+        "vcs_revision" : "dc159848a93fdd7880a914927432defcbed447a8",
+        "pushed_at" : "2019-02-09T17:32:04.109Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T17:32:17.118Z"
+      }, {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 15,
+        "vcs_revision" : "dc159848a93fdd7880a914927432defcbed447a8",
+        "pushed_at" : "2019-02-09T17:17:53.561Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T17:18:06.696Z"
+      } ],
+      "last_non_success" : {
+        "outcome" : "failed",
+        "status" : "failed",
+        "build_num" : 7,
+        "vcs_revision" : "e4632214029e183411f63900e33a0f8c9893187d",
+        "pushed_at" : "2019-02-09T16:16:44.585Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T16:16:49.365Z"
+      },
+      "latest_completed_workflows" : {
+        "Build%20Error" : {
+          "status" : "failed",
+          "created_at" : "2019-02-09T16:16:44.736Z",
+          "id" : "f01e9260-d954-4749-8309-94848d4776a5"
+        },
+        "workflow" : {
+          "status" : "success",
+          "created_at" : "2019-02-09T22:47:35.457Z",
+          "id" : "f69ae070-018b-426d-a81c-1e5ec8d88979"
+        }
+      },
+      "last_success" : {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 28,
+        "vcs_revision" : "95f896a725301655bf0d2e1c349d6d9bcd45bbde",
+        "pushed_at" : "2019-02-09T22:47:35.313Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T22:47:49.671Z"
+      }
+    },
+    "master" : {
+      "latest_workflows" : {
+        "workflow" : {
+          "status" : "running",
+          "created_at" : "2019-02-09T17:32:26.698Z",
+          "id" : "f495e0e0-a386-4bc0-8a9b-d5a90722ff53"
+        }
+      },
+      "pusher_logins" : [ "brandonschabell" ]
+    }
+  },
+  "irc_keyword" : null,
+  "oss" : false,
+  "slack_channel" : null,
+  "hipchat_notify_prefs" : null,
+  "reponame" : "geneticpy",
+  "dependencies" : "",
+  "aws" : {
+    "keypair" : null
+  },
+  "slack_webhook_url" : "https://hooks.slack.com/services/x[masked]x",
+  "irc_channel" : null,
+  "parallel" : 1,
+  "campfire_subdomain" : null,
+  "slack_integration_access_token" : null,
+  "username" : "brandonschabell",
+  "campfire_notify_prefs" : null,
+  "slack_integration_team" : null,
+  "slack_integration_channel" : null,
+  "hipchat_notify" : null,
+  "heroku_deploy_user" : null,
+  "irc_username" : null,
+  "slack_notify_prefs" : null,
+  "scopes" : [ "write-settings", "view-builds", "read-settings", "trigger-builds", "all", "status", "none" ],
+  "campfire_room" : null,
+  "hipchat_api_token" : null,
+  "campfire_token" : null,
+  "slack_subdomain" : null,
+  "has_usable_key" : true,
+  "setup" : "",
+  "vcs_type" : "github",
+  "feature_flags" : {
+    "trusty-beta" : true,
+    "builds-service" : true,
+    "osx" : false,
+    "set-github-status" : true,
+    "build-prs-only" : true,
+    "forks-receive-secret-env-vars" : true,
+    "fleet" : null,
+    "build-fork-prs" : false,
+    "autocancel-builds" : false
+  },
+  "irc_password" : null,
+  "compile" : "",
+  "slack_integration_notify_prefs" : null,
+  "slack_integration_webhook_url" : null,
+  "irc_notify_prefs" : null,
+  "slack_integration_team_id" : null,
+  "extra" : "",
+  "jira" : null,
+  "slack_integration_channel_id" : null,
+  "language" : "Python",
+  "hipchat_room" : null,
+  "flowdock_api_token" : null,
+  "slack_channel_override" : null,
+  "vcs_url" : "https://github.com/geneticpy/geneticpy",
+  "following" : true,
+  "default_branch" : "dev",
+  "slack_api_token" : null,
+  "test" : ""
+},
+{
+  "irc_server" : null,
+  "ssh_keys" : [ ],
+  "branches" : {
+    "dev" : {
+      "latest_workflows" : {
+        "Build%20Error" : {
+          "status" : "failed",
+          "created_at" : "2019-02-09T16:16:44.736Z",
+          "id" : "f01e9260-d954-4749-8309-94848d4776a5"
+        },
+        "workflow" : {
+          "status" : "success",
+          "created_at" : "2019-02-09T22:47:35.457Z",
+          "id" : "f69ae070-018b-426d-a81c-1e5ec8d88979"
+        }
+      },
+      "pusher_logins" : [ "brandonschabell" ],
+      "running_builds" : [ ],
+      "recent_builds" : [ {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 28,
+        "vcs_revision" : "95f896a725301655bf0d2e1c349d6d9bcd45bbde",
+        "pushed_at" : "2019-02-09T22:47:35.313Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T22:47:49.671Z"
+      }, {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 25,
+        "vcs_revision" : "e7d96db2ae2d645e19d89c1de747fb9db161c1aa",
+        "pushed_at" : "2019-02-09T22:11:36.940Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T22:11:55.994Z"
+      }, {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 22,
+        "vcs_revision" : "a3ec4de264911b018f1c0c10fff12a6b3b2ec5d9",
+        "pushed_at" : "2019-02-09T20:01:57.312Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T20:02:16.789Z"
+      }, {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 16,
+        "vcs_revision" : "dc159848a93fdd7880a914927432defcbed447a8",
+        "pushed_at" : "2019-02-09T17:32:04.109Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T17:32:17.118Z"
+      }, {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 15,
+        "vcs_revision" : "dc159848a93fdd7880a914927432defcbed447a8",
+        "pushed_at" : "2019-02-09T17:17:53.561Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T17:18:06.696Z"
+      } ],
+      "last_non_success" : {
+        "outcome" : "failed",
+        "status" : "failed",
+        "build_num" : 7,
+        "vcs_revision" : "e4632214029e183411f63900e33a0f8c9893187d",
+        "pushed_at" : "2019-02-09T16:16:44.585Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T16:16:49.365Z"
+      },
+      "latest_completed_workflows" : {
+        "Build%20Error" : {
+          "status" : "failed",
+          "created_at" : "2019-02-09T16:16:44.736Z",
+          "id" : "f01e9260-d954-4749-8309-94848d4776a5"
+        },
+        "workflow" : {
+          "status" : "success",
+          "created_at" : "2019-02-09T22:47:35.457Z",
+          "id" : "f69ae070-018b-426d-a81c-1e5ec8d88979"
+        }
+      },
+      "last_success" : {
+        "outcome" : "success",
+        "status" : "success",
+        "build_num" : 28,
+        "vcs_revision" : "95f896a725301655bf0d2e1c349d6d9bcd45bbde",
+        "pushed_at" : "2019-02-09T22:47:35.313Z",
+        "is_workflow_job" : true,
+        "is_2_0_job" : true,
+        "added_at" : "2019-02-09T22:47:49.671Z"
+      }
+    },
+    "master" : {
+      "latest_workflows" : {
+        "workflow" : {
+          "status" : "running",
+          "created_at" : "2019-02-09T17:32:26.698Z",
+          "id" : "f495e0e0-a386-4bc0-8a9b-d5a90722ff53"
+        }
+      },
+      "pusher_logins" : [ "brandonschabell" ]
+    }
+  },
+  "irc_keyword" : null,
+  "oss" : false,
+  "slack_channel" : null,
+  "hipchat_notify_prefs" : null,
+  "reponame" : "daskeyboard-applet-circleci",
+  "dependencies" : "",
+  "aws" : {
+    "keypair" : null
+  },
+  "slack_webhook_url" : "https://hooks.slack.com/services/x[masked]x",
+  "irc_channel" : null,
+  "parallel" : 1,
+  "campfire_subdomain" : null,
+  "slack_integration_access_token" : null,
+  "username" : "brandonschabell",
+  "campfire_notify_prefs" : null,
+  "slack_integration_team" : null,
+  "slack_integration_channel" : null,
+  "hipchat_notify" : null,
+  "heroku_deploy_user" : null,
+  "irc_username" : null,
+  "slack_notify_prefs" : null,
+  "scopes" : [ "write-settings", "view-builds", "read-settings", "trigger-builds", "all", "status", "none" ],
+  "campfire_room" : null,
+  "hipchat_api_token" : null,
+  "campfire_token" : null,
+  "slack_subdomain" : null,
+  "has_usable_key" : true,
+  "setup" : "",
+  "vcs_type" : "github",
+  "feature_flags" : {
+    "trusty-beta" : true,
+    "builds-service" : true,
+    "osx" : false,
+    "set-github-status" : true,
+    "build-prs-only" : true,
+    "forks-receive-secret-env-vars" : true,
+    "fleet" : null,
+    "build-fork-prs" : false,
+    "autocancel-builds" : false
+  },
+  "irc_password" : null,
+  "compile" : "",
+  "slack_integration_notify_prefs" : null,
+  "slack_integration_webhook_url" : null,
+  "irc_notify_prefs" : null,
+  "slack_integration_team_id" : null,
+  "extra" : "",
+  "jira" : null,
+  "slack_integration_channel_id" : null,
+  "language" : "Python",
+  "hipchat_room" : null,
+  "flowdock_api_token" : null,
+  "slack_channel_override" : null,
+  "vcs_url" : "https://github.com/brandonschabell/daskeyboard-applet-circleci",
+  "following" : true,
+  "default_branch" : "dev",
+  "slack_api_token" : null,
+  "test" : ""
+} ]

@@ -1,0 +1,128 @@
+[ {
+    "compare" : null,
+    "previous_successful_build" : {
+      "build_num" : 25,
+      "status" : "success",
+      "build_time_millis" : 16967
+    },
+    "build_parameters" : {
+      "CIRCLE_JOB" : "build"
+    },
+    "oss" : false,
+    "all_commit_details_truncated" : false,
+    "committer_date" : "2019-02-09T16:47:32-06:00",
+    "body" : "[masked]",
+    "usage_queued_at" : "2019-02-09T22:47:35.675Z",
+    "context_ids" : [ ],
+    "fail_reason" : null,
+    "retry_of" : null,
+    "reponame" : "daskeyboard-applet-circleci",
+    "ssh_users" : [ ],
+    "build_url" : "https://circleci.com/gh/brandonschabell/daskeyboard-applet-circleci/28",
+    "parallel" : 1,
+    "failed" : true,
+    "branch" : "dev",
+    "username" : "brandonschabell",
+    "author_date" : "2019-02-09T16:47:32-06:00",
+    "why" : "github",
+    "user" : {
+      "is_user" : true,
+      "login" : "brandonschabell",
+      "avatar_url" : "https://avatars3.githubusercontent.com/u/16674595?v=4",
+      "name" : "Brandon Schabell",
+      "vcs_type" : "github",
+      "id" : 16674595
+    },
+    "vcs_revision" : "95f896a725301655bf0d2e1c349d6d9bcd45bbde",
+    "workflows" : {
+      "job_name" : "build",
+      "job_id" : "3cd1e93b-51cd-4211-b816-44fa312ae67f",
+      "workflow_id" : "f69ae070-018b-426d-a81c-1e5ec8d88979",
+      "workspace_id" : "f69ae070-018b-426d-a81c-1e5ec8d88979",
+      "upstream_job_ids" : [ ],
+      "upstream_concurrency_map" : { },
+      "workflow_name" : "workflow"
+    },
+    "vcs_tag" : null,
+    "build_num" : 28,
+    "infrastructure_fail" : false,
+    "committer_email" : "noreply@github.com",
+    "has_artifacts" : true,
+    "previous" : {
+      "build_num" : 25,
+      "status" : "success",
+      "build_time_millis" : 16967
+    },
+    "status" : "failed",
+    "committer_name" : "GitHub",
+    "retries" : null,
+    "subject" : "[masked]",
+    "vcs_type" : "github",
+    "timedout" : false,
+    "dont_build" : null,
+    "lifecycle" : "finished",
+    "no_dependency_cache" : false,
+    "stop_time" : "2019-02-09T22:47:49.620Z",
+    "ssh_disabled" : true,
+    "build_time_millis" : 12463,
+    "picard" : {
+      "build_agent" : {
+        "image" : "circleci/picard:0.1.1809-71691ee9",
+        "properties" : {
+          "build_agent" : "0.1.1809-71691ee9",
+          "executor" : "docker"
+        }
+      },
+      "resource_class" : {
+        "cpu" : 2.0,
+        "ram" : 4096,
+        "class" : "medium"
+      },
+      "executor" : "docker"
+    },
+    "circle_yml" : {
+      "string" : "version: 2\njobs:\n  [masked]\n"
+    },
+    "messages" : [ ],
+    "is_first_green_build" : false,
+    "job_name" : null,
+    "start_time" : "2019-02-09T22:47:37.157Z",
+    "canceler" : null,
+    "all_commit_details" : [ {
+      "committer_date" : "2019-02-09T16:46:33-06:00",
+      "body" : "",
+      "branch" : "dev",
+      "author_date" : "2019-02-09T16:46:33-06:00",
+      "committer_email" : "brandonschabell@gmail.com",
+      "commit" : "347e5ec1d41700349b168a81076dc836b507cc97",
+      "committer_login" : "brandonschabell",
+      "committer_name" : "Brandon Schabell",
+      "subject" : "[masked]",
+      "commit_url" : "https://github.com/brandonschabell/daskeyboard-applet-circleci/commit/[masked]",
+      "author_login" : "brandonschabell",
+      "author_name" : "Brandon Schabell",
+      "author_email" : "brandonschabell@gmail.com"
+    }, {
+      "committer_date" : "2019-02-09T16:47:32-06:00",
+      "body" : "[masked]",
+      "branch" : "dev",
+      "author_date" : "2019-02-09T16:47:32-06:00",
+      "committer_email" : "noreply@github.com",
+      "commit" : "95f896a725301655bf0d2e1c349d6d9bcd45bbde",
+      "committer_login" : "web-flow",
+      "committer_name" : "GitHub",
+      "subject" : "[masked]",
+      "commit_url" : "https://github.com/brandonschabell/daskeyboard-applet-circlecin/commit/[masked]",
+      "author_login" : "brandonschabell",
+      "author_name" : "Brandon Schabell",
+      "author_email" : "brandonschabell@gmail.com"
+    } ],
+    "platform" : "2.0",
+    "outcome" : "failed",
+    "vcs_url" : "https://github.com/brandonschabell/daskeyboard-applet-circleci",
+    "author_name" : "Brandon Schabell",
+    "node" : null,
+    "queued_at" : "2019-02-09T22:47:35.709Z",
+    "canceled" : false,
+    "author_email" : "brandonschabell@gmail.com"
+  } ]

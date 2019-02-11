@@ -1,0 +1,76 @@
+{
+    "name": "daskeyboard-applet--circleci",
+    "displayName": "CircleCI",
+    "version": "1.0.0",
+    "publisher": "Brandon Schabell",
+    "longDescription": "Get CircleCI build status alerts directly on a Das Keyboard Q keyboard. Requires a CircleCI account and a personal API token.",
+    "icon": "assets/icon.png",
+    "description": "Displays CircleCI build status.",
+    "main": "index.js",
+    "authorName": "Brandon Schabell",
+    "authorUrl": "https://www.brandonschabell.com",
+    "licenseUrl": "https://github.com/brandonschabell/daskeyboard-applet-circleci/blob/master/LICENSE",
+    "homePageUrl": "https://circleci.com",
+    "changelogUrl": "CHANGELOG.md",
+    "issuesUrl": "https://github.com/brandonschabell/daskeyboard-applet-circleci/issues",
+    "developerRepoUrl": "https://github.com/brandonschabell/daskeyboard-applet-circleci",
+    "readMeEndUserUrl": "README_END_USER.md",
+    "license": "MIT",
+    "engines": {
+      "das-keyboard-q": "3.2.1"
+    },
+    "scripts": {
+      "test": "mocha"
+    },
+    "readMeUrl": "README.md",
+    "qConfig": {
+      "geometry": {
+        "width": 1,
+        "height": 1
+      },
+      "authorization": {
+        "type": "apiKey",
+        "hint": "Create a personal API token on the CircleCI website",
+        "supportUrl": "https://circleci.com/account/api"
+      },
+      "questions": [
+        {
+            "key": "vcs",
+            "label": "Version Control System",
+            "required": true,
+            "order": 1,
+            "controlType": "dropdown",
+            "options": [{
+                "key": "github",
+                "value": "Github"
+            }, {
+                "key": "bitbucket",
+                "value": "Bitbucket"
+            }]
+        }, 
+        {
+            "key": "username",
+            "label": "CircleCI Username",
+            "required": true,
+            "order": 2,
+            "controlType": "textbox"
+        },
+        {
+          "key": "project",
+          "label": "Choose a project to track",
+          "help": "Select a location from the list",
+          "required": true,
+          "order": 3,
+          "controlType": "dropdown",
+          "dynamic": true,
+          "options": []
+        }]
+    },
+    "dependencies": {
+      "daskeyboard-applet": "^2.10.13",
+      "request-promise": "^4.2.2"
+    },
+    "devDependencies": {
+      "mocha": "^5.2.0"
+    }
+  }

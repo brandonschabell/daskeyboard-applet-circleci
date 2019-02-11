@@ -48,8 +48,8 @@ async function processProjectsResponse(response) {
 class CircleCIBuildInfo extends q.DesktopApp {
     constructor() {
         super();
-        // run every 30 seconds
-        this.pollingInterval = 30000;
+        // run every minute
+        this.pollingInterval = 60000;
     }
 
     /**

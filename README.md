@@ -1,4 +1,4 @@
-# Q-Applet: CircleCI
+# Q Applet: CircleCI
 
 Get CircleCI build status alerts directly on a Das Keyboard Q keyboard. Requires a CircleCI account
 and a personal API token: [https://circleci.com/](https://circleci.com/).

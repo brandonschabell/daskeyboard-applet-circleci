@@ -67,7 +67,7 @@
         }]
     },
     "dependencies": {
-      "daskeyboard-applet": "^2.10.13",
+      "daskeyboard-applet": "^2.11.3",
       "request-promise": "^4.2.2"
     },
     "devDependencies": {

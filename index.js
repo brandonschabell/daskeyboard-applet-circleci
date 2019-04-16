@@ -95,7 +95,7 @@ class CircleCIBuildInfo extends q.DesktopApp {
      * send a signal to the Das Keyboard Q Software depending on the build state
      */
     async run() {
-        logger.info(`Running.`);
+        logger.info(`CircleCI running.`);
 
         return this.getBuilds().then(body => {
             const latestBuild = body[0];
@@ -150,7 +150,15 @@ class CircleCIBuildInfo extends q.DesktopApp {
             }
         }).catch(error => {
             logger.error(`Error while getting builds: ${error}`);
-            return q.Signal.error([`Error while getting builds`]);
+            if(`${error.message}`.includes("getaddrinfo")){
+                return q.Signal.error(
+                  'The CircleCI service returned an error. <b>Please check your internet connection</b>.'
+                );
+              }
+              return q.Signal.error([
+                'The CircleCI service returned an error. <b>Please check your API key and account</b>.',
+                `Detail: ${error.message}`
+              ]);
         })
     }
 }

@@ -1,7 +1,7 @@
 {
     "name": "daskeyboard-applet--circleci",
     "displayName": "CircleCI",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "Brandon Schabell",
     "longDescription": "Get CircleCI build status alerts directly on a Das Keyboard Q keyboard. Requires a CircleCI account and a personal API token.",
     "icon": "assets/icon.png",

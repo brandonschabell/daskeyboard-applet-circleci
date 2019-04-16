@@ -1,7 +1,10 @@
 # Q Applet: CircleCI
 
-Get CircleCI build status alerts directly on a Das Keyboard Q keyboard. Requires a CircleCI account
-and a personal API token: [https://circleci.com/](https://circleci.com/).
+Get CircleCI build status alerts directly on a Das Keyboard Q Series.
+
+CircleCI's continuous integration and delivery platform makes it easy for teams of all sizes to rapidly build and release quality software at scale.
+
+For more information about CircleCI visit <https://www.circleci.com>.
 
 [GitHub repository](https://github.com/brandonschabell/daskeyboard-applet-circleci)
 
@@ -13,7 +16,7 @@ The "C" key in the image below is green because the build of the repo `event-rec
 
 ## Installation
 
-Requires a Das Keyboard Q Series: www.daskeyboard.com
+Requires a Das Keyboard Q Series: www.daskeyboard.com and a CircleCI account.
 
 Installation, configuration and uninstallation of applets is done within
 the Q Desktop application [https://www.daskeyboard.com](https://www.daskeyboard.com/q).
